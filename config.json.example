@@ -1,0 +1,22 @@
+{
+  "property": {
+    "block": "1234",
+    "lot": "5678"
+  },
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "from_email": "your_email@gmail.com",
+    "from_password": "your_app_password",
+    "to_emails": ["recipient@email.com"]
+  },
+  "nyc_data": {
+    "api_tokens": {
+      "socrata_token": "your_socrata_api_token_optional"
+    }
+  },
+  "schedule": {
+    "time": "09:00",
+    "enabled": true
+  }
+}
